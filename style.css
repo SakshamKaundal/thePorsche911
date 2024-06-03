@@ -2,7 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  sans-serif,'Poppins';
+}
+
+body{
+    height: 100px;
+    background: #d3d2d2;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 50px;
+    
 }
 
 .hero{
@@ -75,3 +89,60 @@
     font-weight: 100;
     
 }
+
+.navbar ul{
+    display: flex;
+    
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color: #100f0f;
+    font-size: 16px;
+    margin-right: 60px;
+    transition: color 0.3s ease;
+    margin-right: 70px;
+    align-items: center;
+}
+
+.navbar ul li :hover a{
+        color: rgb(216, 71, 71);
+        align-items: center;
+}
+
+.navbar ul li :last-child a{
+    margin: 0;
+}
+
+.book-car {
+    background: #0f0f0f ;
+    font-size: 16px;
+    size: 2px;
+    padding: 10px;
+    font-weight: 100;
+    color: #cfcfcf;
+    
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    text-align: center;
+    
+}
+
+.logo{
+    height:auto;
+  
+    padding: auto;
+}
+
+.logo-container {
+    width: 50px;                /* Set the desired width */
+    height:fit-content;                /* Maintain aspect ratio */
+                                /* Hide the overflow part of the image */
+  }
